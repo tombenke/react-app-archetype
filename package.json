@@ -42,7 +42,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run prettier && lint-staged"
     }
   },
   "jest": {
@@ -93,14 +93,13 @@
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
     "build": "react-scripts build",
-    "build-storybook": "build-storybook -s public",
     "coverage": "npm test -- --coverage",
     "coveralls": "npm test -- --coverage && cat ./coverage/lcov.info | coveralls",
     "eject": "react-scripts eject",
     "prettier": "prettier --single-quote --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
     "start": "react-scripts start",
     "storybook": "start-storybook -p 9009 -s public",
-    "storybook-build": "build-storybook -c .storybook -o ./docs/storybook",
+    "build-storybook": "build-storybook -c .storybook -o ./docs/storybook",
     "test": "react-scripts test",
     "test-single": "cross-env CI=true react-scripts test --verbose --runInBand"
   }
