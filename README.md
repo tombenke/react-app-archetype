@@ -19,6 +19,29 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run test-single <test-file>`
+Executes the test with a single test file.
+
+### `npm run coverage`
+
+Executes the tests and shows the coverage report.
+
+### `npm run prettier`
+
+Runs the prettier utility manually.<br>
+See [prettier.io](https://prettier.io/) for more information.
+
+### `npm run storybook`
+
+Start Storybook.<br>
+Storybook shouldbe available in the browser with a link provided in the console.<br>
+See [storybook.org](https://storybook.js.org) for more information.
+
+### `npm run analyze`
+
+Analyze and debug JavaScript (or Sass or LESS) code bloat through source maps.<br>
+See [source-map-explorer](source-map-explorer) for more information.
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br>
@@ -38,6 +61,28 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Create a new react-app project
+
+Use the [kickoff](https://www.npmjs.com/package/kickoff) utility to create a new react frontend project based on this repository.
+
+1. Install the kickoff utility:
+
+```bash
+    npm install -g kickoff
+```
+
+2. Create the new project:
+    kickoff 
+    kickoff -s tombenke/react-app-archetype -d new-react-app-project
+    cd new-react-app-project
+    ./.kickoff.sh
+
+3. Install modules, and build the app:
+    npm install
+    npm run build
+
+See [kickoff](https://www.npmjs.com/package/kickoff) for further information.
 
 ## Learn More
 
