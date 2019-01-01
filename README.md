@@ -1,3 +1,11 @@
+react-app-archetype
+===================
+
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+[![npm version][npm-badge]][npm-url]
+[![Build Status][travis-badge]][travis-url]
+[![Coveralls][BadgeCoveralls]][Coveralls]
+
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,14 +81,18 @@ Use the [kickoff](https://www.npmjs.com/package/kickoff) utility to create a new
 ```
 
 2. Create the new project:
+```bash
     kickoff 
     kickoff -s tombenke/react-app-archetype -d new-react-app-project
     cd new-react-app-project
     ./.kickoff.sh
+```
 
 3. Install modules, and build the app:
+```bash
     npm install
     npm run build
+```
 
 See [kickoff](https://www.npmjs.com/package/kickoff) for further information.
 
@@ -113,3 +125,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+[npm-badge]: https://badge.fury.io/js/react-app-archetype.svg
+[npm-url]: https://badge.fury.io/js/react-app-archetype
+[travis-badge]: https://api.travis-ci.org/tombenke/react-app-archetype.svg
+[travis-url]: https://travis-ci.org/tombenke/react-app-archetype
+[Coveralls]: https://coveralls.io/github/tombenke/react-app-archetype?branch=master
+[BadgeCoveralls]: https://coveralls.io/repos/github/tombenke/react-app-archetype/badge.svg?branch=master
