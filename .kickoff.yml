@@ -61,3 +61,5 @@ questions:
 converters:
     handlebars:
         - .kickoff.sed
+        - package.json
+        - package-lock.json
