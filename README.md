@@ -2,7 +2,6 @@ react-app-archetype
 ===================
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
-[![npm version][npm-badge]][npm-url]
 [![Build Status][travis-badge]][travis-url]
 [![Coveralls][BadgeCoveralls]][Coveralls]
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -126,7 +125,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 [npm-badge]: https://badge.fury.io/js/react-app-archetype.svg
-[npm-url]: https://badge.fury.io/js/react-app-archetype
 [travis-badge]: https://api.travis-ci.org/tombenke/react-app-archetype.svg
 [travis-url]: https://travis-ci.org/tombenke/react-app-archetype
 [Coveralls]: https://coveralls.io/github/tombenke/react-app-archetype?branch=master
