@@ -125,7 +125,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-
 [npm-badge]: https://badge.fury.io/js/react-app-archetype.svg
 [npm-url]: https://badge.fury.io/js/react-app-archetype
 [travis-badge]: https://api.travis-ci.org/tombenke/react-app-archetype.svg
