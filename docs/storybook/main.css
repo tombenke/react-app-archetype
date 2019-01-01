@@ -1,0 +1,39 @@
+.Logo {
+  text-align: center; }
+
+.Logo-logo {
+  -webkit-animation: Logo-logo-spin infinite 20s linear;
+          animation: Logo-logo-spin infinite 20s linear;
+  height: 40vmin; }
+
+.Logo-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; }
+
+.Logo-link {
+  color: #61dafb; }
+
+@-webkit-keyframes Logo-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes Logo-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+
+/*# sourceMappingURL=main.css.map*/

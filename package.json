@@ -100,6 +100,7 @@
     "prettier": "prettier --single-quote --write 'src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
     "start": "react-scripts start",
     "storybook": "start-storybook -p 9009 -s public",
+    "storybook-build": "build-storybook -c .storybook -o ./docs/storybook",
     "test": "react-scripts test",
     "test-single": "cross-env CI=true react-scripts test --verbose --runInBand"
   }
