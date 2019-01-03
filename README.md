@@ -1,5 +1,5 @@
-react-app-archetype
-===================
+react-redux-app
+===============
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 [![Build Status][travis-badge]][travis-url]
@@ -81,7 +81,7 @@ Use the [kickoff](https://www.npmjs.com/package/kickoff) utility to create a new
 2. Create the new project:
 ```bash
     kickoff 
-    kickoff -s tombenke/react-app-archetype -d new-react-app-project
+    kickoff -s tombenke/react-redux-app -d new-react-app-project
     cd new-react-app-project
     ./.kickoff.sh
 ```
@@ -124,8 +124,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-[npm-badge]: https://badge.fury.io/js/react-app-archetype.svg
-[travis-badge]: https://api.travis-ci.org/tombenke/react-app-archetype.svg
-[travis-url]: https://travis-ci.org/tombenke/react-app-archetype
-[Coveralls]: https://coveralls.io/github/tombenke/react-app-archetype?branch=master
-[BadgeCoveralls]: https://coveralls.io/repos/github/tombenke/react-app-archetype/badge.svg?branch=master
+[npm-badge]: https://badge.fury.io/js/react-redux-app.svg
+[travis-badge]: https://api.travis-ci.org/tombenke/react-redux-app.svg
+[travis-url]: https://travis-ci.org/tombenke/react-redux-app
+[Coveralls]: https://coveralls.io/github/tombenke/react-redux-app?branch=master
+[BadgeCoveralls]: https://coveralls.io/repos/github/tombenke/react-redux-app/badge.svg?branch=master

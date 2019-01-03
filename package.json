@@ -1,5 +1,5 @@
 {
-  "name": "react-app-archetype",
+  "name": "react-redux-app",
   "description": "A template project for react frontends",
   "version": "1.0.0",
   "author": {
@@ -7,13 +7,13 @@
     "email": "tombenke@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/tombenke/react-app-archetype/issues"
+    "url": "https://github.com/tombenke/react-redux-app/issues"
   },
   "license": "MIT",
   "homepage": "./",
   "repository": {
     "type": "git",
-    "url": "http://github.com/tombenke/react-app-archetype.git"
+    "url": "http://github.com/tombenke/react-redux-app.git"
   },
   "engines": {
     "node": ">= 9.11.1",
