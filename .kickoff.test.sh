@@ -9,6 +9,7 @@ cd $destDir
 echo $destDir
 pwd
 sh ./.kickoff.sh
+rm node_modules/* -fr
 npm install
 npm run build
 echo "Start a web server (such as http-server) in the dist folder listening on the right port"
