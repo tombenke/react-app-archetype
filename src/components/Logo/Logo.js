@@ -15,12 +15,6 @@ class Logo extends Component {
                         {packageJson.description}
                     </h3>
                     <img src={logo} className="Logo-logo" alt="logo" />
-                    <p>
-                        Edit <code>src/Logo.js</code> and save to reload.
-                    </p>
-                    <a className="Logo-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-                        Learn React.
-                    </a>
                 </header>
             </div>
         )

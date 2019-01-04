@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { HashRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import './index.css'
-import { Logo } from './components/Logo/'
+import Welcome from './components/Welcome/'
+import Logo from './components/Logo/'
+import Monitoring from './components/Monitoring/'
 import * as serviceWorker from './serviceWorker'
 import { configureStore } from '@tombenke/redux-app'
 //
@@ -12,11 +14,13 @@ const store = configureStore()
 
 ReactDOM.render(
     <Provider store={store}>
-        <HashRouter>
+        <BrowserRouter>
             <Switch>
-                <Route path="/" name="Logo" component={Logo} />
+                <Route exact path="/" name="Welcome" component={Welcome} />
+                <Route path="/logo" name="Logo" component={Logo} />
+                <Route path="/monitoring" name="Monitoring" component={Monitoring} />
             </Switch>
-        </HashRouter>
+        </BrowserRouter>
     </Provider>,
     document.getElementById('root')
 )

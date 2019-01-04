@@ -1,0 +1,6 @@
+diff a/src/index.js b/src/index.js	(rejected hunks)
+@@ -20 +20,3 @@ ReactDOM.render(
+-    </Provider>, document.getElementById('root'))
++    </Provider>,
++    document.getElementById('root')
++)
