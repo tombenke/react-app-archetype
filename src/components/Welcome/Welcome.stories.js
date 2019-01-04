@@ -12,5 +12,4 @@ const store = mockStore(initialState)
 
 const ProviderDecorator = getStory => <Provider store={store}>{getStory()}</Provider>
 addDecorator(ProviderDecorator)
-
 storiesOf('Welcome', module).add('Welcome component', () => <Welcome />)
