@@ -1,0 +1,1 @@
+{"version":3,"file":"main.24b03b9493269eab14cb.bundle.js","sources":["webpack:///./src/components/Logo/logo.svg"],"sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/logo.5d5d9eef.svg\";"],"mappings":"AAAA","sourceRoot":""}

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { getMonitoringIsAlive, monitoringIsAliveSelector, getMonitoringIsAliveStateSelector } from '@tombenke/redux-app'
-import { default as MonitoringComponent } from './Monitoring'
+import { Monitoring as MonitoringComponent } from 'monitoring-react-component'
 
 const mapStateToProps = state => ({
     isAlive: monitoringIsAliveSelector(state),
