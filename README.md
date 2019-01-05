@@ -6,7 +6,12 @@ react-redux-app
 [![Coveralls][BadgeCoveralls]][Coveralls]
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
+It is a template project for react frontends.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+See the [storybook](https://tombenke.github.io/react-redux-app/storybook/) to see the components,
+and read the [docs](https://tombenke.github.io/react-redux-app/) for further information.
 
 ## Available Scripts
 
