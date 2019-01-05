@@ -88,7 +88,7 @@ Use the [kickoff](https://www.npmjs.com/package/kickoff) utility to create a new
     kickoff 
     kickoff -s tombenke/react-redux-app -d new-react-app-project
     cd new-react-app-project
-    ./.kickoff.sh
+    sh .kickoff.sh
 ```
 
 3. Install modules, and build the app:
