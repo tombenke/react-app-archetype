@@ -1,5 +1,5 @@
 # Configuration file to generate test-ui via kickoff
-# kickoff -a test-react-redux-app.yml -f ~/topics/react-redux-app/ -d test-react-redux-app
+# kickoff -a .kickoff.test.yml -f ~/topics/react-redux-app/ -d test-react-redux-app
 package_name: test-react-redux-app
 package_description: A react frontend application
 author_full_name: Test Author
