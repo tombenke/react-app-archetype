@@ -38,9 +38,8 @@ except that is tightly connected to the internal presentational logic and state 
 
 ### `@tombenke/redux-app`
 
-The [@tombenke/redux-app](https://github.com/tombenke/redux-app)
-
-A redux based application, that holds all the actions,
+The [@tombenke/redux-app](https://github.com/tombenke/redux-app) is a
+redux based application, that holds all the actions,
 reducers and selectors that is needed to the frontend business logic of the application.
 
 This project may holds all the business logic components, however it my include some external dependencies too.
@@ -62,7 +61,7 @@ The module does not contain the store, only a mock-store for testing purposes.
 
 ### `redux-app-testbot`
 
-The [redux-app-testbot](https://github.com/tombenke/redux-app-testbot)
+The [react-redux-app-testbot](https://github.com/tombenke/react-redux-app-testbot)
 is a template project for react frontend test bots.
 
 It is a headless frontend application, in the meaning that it contains no presentational components,
